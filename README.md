@@ -28,15 +28,17 @@
     **dead_in_hosp** 원내 사망 여부(0/1)
     - 17696 case, 424704 측정건(negative downsampled)을 train:valid:test=7:2:1 로 분리
     
-    <aside>
-    💡 **dataset 개선사항 (last update: 07/23)**
+
+    ```markdown
+    dataset 개선사항 (last update: 07/23)
     
     1. 측정시점 데이터로 storetime 폐기, **charttime 채택**
     2. **결측치 처리**: stay_id별로 forward fill 적용, 첫 행이 결측치일 경우 전체의 median 값 채택
     3. **los**(length of stay): charttime(측정시각)-intime(입실시각)으로 수정
     4. negative 값 downsampling 방식 변경: random 시점 선택 후 **해당 시점 전후 24시간** 값만 채택
     5. negative random downsampling 비율을 **4배**로 고정: positive-negative 비율 6:4(valid, test set에서도 동일하게 유지)
-    </aside>
+    
+    ```
     
     ⇒ 24 sequence, 128 batch size, 44 feature 구조로 모델에 입력
     
@@ -54,7 +56,7 @@ LSTM(5 FC+3 LSTM layer) + LightGBM ensemble(soft voting: 모델간 가중치 없
 
 - LSTM hyperparameter(selected value)
     
-    ![Untitled](01.png)
+    ![Untitled](img/01.png)
     
 
 - LightGBM hyperparameter(Optuna로 최적화)
@@ -78,7 +80,7 @@ LSTM(5 FC+3 LSTM layer) + LightGBM ensemble(soft voting: 모델간 가중치 없
     | AUROC | 0.5196 | 0.4891 | 0.4934 |
     | AUPRC | 0.4452 | 0.4356 | 0.4306 |
 
-![Untitled](02.png)
+![Untitled](img/02.png)
 
 ### limitation
 
