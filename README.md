@@ -56,7 +56,7 @@ LSTM(5 FC+3 LSTM layer) + LightGBM ensemble(soft voting: 모델간 가중치 없
 
 - LSTM hyperparameter(selected value)
     
-    ![Untitled](img/02.png)
+    ![Untitled](img/01.png)
     
 
 - LightGBM hyperparameter(Optuna로 최적화)
@@ -72,7 +72,7 @@ LSTM(5 FC+3 LSTM layer) + LightGBM ensemble(soft voting: 모델간 가중치 없
 
 - LSTM: epoch 20, lr=0.0001, weight decay=0.01
 - 평가 지표 : Accuracy, AUROC, AUPRC
-    ![Untitled](img/01.png)
+    ![Untitled](img/02.png)
     
     |  | LSTM | LightGBM | ensemble  |
     | --- | --- | --- | --- |
