@@ -29,9 +29,9 @@
     - 17696 case, 424704 측정건(negative downsampled)을 train:valid:test=7:2:1 로 분리
     
 
-    ```markdown
     dataset 개선사항 (`last update: 07/23`)
     
+    ```markdown
     1. 측정시점 데이터로 storetime 폐기, charttime 채택
     2. 결측치 처리: stay_id별로 forward fill 적용, 첫 행이 결측치일 경우 전체의 median 값 채택
     3. los(length of stay): charttime(측정시각)-intime(입실시각)으로 수정
@@ -80,7 +80,6 @@ LSTM(5 FC+3 LSTM layer) + LightGBM ensemble(soft voting: 모델간 가중치 없
     | AUROC | 0.5196 | 0.4891 | 0.4934 |
     | AUPRC | 0.4452 | 0.4356 | 0.4306 |
 
-    
 
 ### limitation
 
