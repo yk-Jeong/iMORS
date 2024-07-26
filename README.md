@@ -1,5 +1,3 @@
-구현 전체 코드: https://github.com/yk-Jeong/iMORS/blob/main/code.ipynb `last update: 24.07.23`
-
 - [ ]  논문 정보
 - 논문명 : Real-time machine learning model to predict short-term mortality in critically ill patients: development and international validation
 - 저널명 : Critical Care
