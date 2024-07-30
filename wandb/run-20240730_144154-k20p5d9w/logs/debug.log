@@ -1,0 +1,43 @@
+2024-07-30 14:41:54,494 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Configure stats pid to 111268
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Loading settings from /home/ykjeong/.config/wandb/settings
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Loading settings from /home/ykjeong/new-repo/wandb/settings
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-30 14:41:54,495 INFO    MainThread:111268 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-30 14:41:54,496 INFO    MainThread:111268 [wandb_init.py:_log_setup():529] Logging user logs to /home/ykjeong/new-repo/wandb/run-20240730_144154-k20p5d9w/logs/debug.log
+2024-07-30 14:41:54,496 INFO    MainThread:111268 [wandb_init.py:_log_setup():530] Logging internal logs to /home/ykjeong/new-repo/wandb/run-20240730_144154-k20p5d9w/logs/debug-internal.log
+2024-07-30 14:41:54,496 INFO    MainThread:111268 [wandb_init.py:init():569] calling init triggers
+2024-07-30 14:41:54,496 INFO    MainThread:111268 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {}
+2024-07-30 14:41:54,497 INFO    MainThread:111268 [wandb_init.py:init():619] starting backend
+2024-07-30 14:41:54,497 INFO    MainThread:111268 [wandb_init.py:init():623] setting up manager
+2024-07-30 14:41:54,504 INFO    MainThread:111268 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-30 14:41:54,505 INFO    MainThread:111268 [wandb_init.py:init():631] backend started and connected
+2024-07-30 14:41:54,513 INFO    MainThread:111268 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-30 14:41:54,513 INFO    MainThread:111268 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-30 14:41:54,513 INFO    MainThread:111268 [wandb_init.py:init():720] updated telemetry
+2024-07-30 14:41:54,520 INFO    MainThread:111268 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-30 14:41:55,064 INFO    MainThread:111268 [wandb_run.py:_on_init():2435] communicating current version
+2024-07-30 14:41:55,095 INFO    MainThread:111268 [wandb_run.py:_on_init():2444] got version response 
+2024-07-30 14:41:55,095 INFO    MainThread:111268 [wandb_init.py:init():804] starting run threads in backend
+2024-07-30 14:41:57,980 INFO    MainThread:111268 [wandb_run.py:_console_start():2413] atexit reg
+2024-07-30 14:41:57,980 INFO    MainThread:111268 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2024-07-30 14:41:57,980 INFO    MainThread:111268 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2024-07-30 14:41:57,980 INFO    MainThread:111268 [wandb_run.py:_redirect():2345] Redirects installed.
+2024-07-30 14:41:57,981 INFO    MainThread:111268 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-30 14:41:57,981 INFO    MainThread:111268 [wandb_config.py:__setitem__():151] config set batch_size = 256 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff5659f4a90>>
+2024-07-30 14:41:57,981 INFO    MainThread:111268 [wandb_run.py:_config_callback():1382] config_cb batch_size 256 None
+2024-07-30 14:41:57,982 INFO    MainThread:111268 [wandb_config.py:__setitem__():151] config set learning_rate = 0.0002 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff5659f4a90>>
+2024-07-30 14:41:57,982 INFO    MainThread:111268 [wandb_run.py:_config_callback():1382] config_cb learning_rate 0.0002 None
+2024-07-30 14:41:57,982 INFO    MainThread:111268 [wandb_config.py:__setitem__():151] config set epochs = 20 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff5659f4a90>>
+2024-07-30 14:41:57,982 INFO    MainThread:111268 [wandb_run.py:_config_callback():1382] config_cb epochs 20 None
+2024-07-30 14:42:27,708 INFO    MainThread:111268 [wandb_run.py:_finish():2107] finishing run ykjeong-info/mortality/k20p5d9w
+2024-07-30 14:42:27,708 INFO    MainThread:111268 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2024-07-30 14:42:27,708 INFO    MainThread:111268 [wandb_run.py:_restore():2352] restore
+2024-07-30 14:42:27,709 INFO    MainThread:111268 [wandb_run.py:_restore():2358] restore done
+2024-07-30 14:42:31,144 INFO    MainThread:111268 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-07-30 14:42:31,145 INFO    MainThread:111268 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-07-30 14:42:31,158 INFO    MainThread:111268 [wandb_run.py:_footer_sync_info():3975] logging synced files

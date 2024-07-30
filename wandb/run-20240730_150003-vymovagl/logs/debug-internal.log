@@ -1,0 +1,326 @@
+2024-07-30 15:00:09,185 INFO    StreamThr :146972 [internal.py:wandb_internal():85] W&B internal server running at pid: 146972, started at: 2024-07-30 15:00:09.184561
+2024-07-30 15:00:09,187 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status
+2024-07-30 15:00:09,190 INFO    WriterThread:146972 [datastore.py:open_for_write():87] open: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/run-vymovagl.wandb
+2024-07-30 15:00:09,191 DEBUG   SenderThread:146972 [sender.py:send():379] send: header
+2024-07-30 15:00:09,191 DEBUG   SenderThread:146972 [sender.py:send():379] send: run
+2024-07-30 15:00:09,722 INFO    SenderThread:146972 [dir_watcher.py:__init__():211] watching files in: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files
+2024-07-30 15:00:09,723 INFO    SenderThread:146972 [sender.py:_start_run_threads():1188] run started: vymovagl with start time 1722319208.337744
+2024-07-30 15:00:09,737 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: check_version
+2024-07-30 15:00:09,738 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: check_version
+2024-07-30 15:00:09,785 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: run_start
+2024-07-30 15:00:09,787 DEBUG   HandlerThread:146972 [system_info.py:__init__():26] System info init
+2024-07-30 15:00:09,787 DEBUG   HandlerThread:146972 [system_info.py:__init__():41] System info init done
+2024-07-30 15:00:09,788 INFO    HandlerThread:146972 [system_monitor.py:start():194] Starting system monitor
+2024-07-30 15:00:09,788 INFO    SystemMonitor:146972 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-30 15:00:09,788 INFO    HandlerThread:146972 [system_monitor.py:probe():214] Collecting system info
+2024-07-30 15:00:09,789 INFO    SystemMonitor:146972 [interfaces.py:start():188] Started cpu monitoring
+2024-07-30 15:00:09,790 INFO    SystemMonitor:146972 [interfaces.py:start():188] Started disk monitoring
+2024-07-30 15:00:09,791 INFO    SystemMonitor:146972 [interfaces.py:start():188] Started gpu monitoring
+2024-07-30 15:00:09,792 INFO    SystemMonitor:146972 [interfaces.py:start():188] Started memory monitoring
+2024-07-30 15:00:09,794 INFO    SystemMonitor:146972 [interfaces.py:start():188] Started network monitoring
+2024-07-30 15:00:09,833 DEBUG   HandlerThread:146972 [system_info.py:probe():152] Probing system
+2024-07-30 15:00:09,834 DEBUG   HandlerThread:146972 [system_info.py:_probe_git():137] Probing git
+2024-07-30 15:00:09,842 DEBUG   HandlerThread:146972 [system_info.py:_probe_git():145] Probing git done
+2024-07-30 15:00:09,842 DEBUG   HandlerThread:146972 [system_info.py:probe():200] Probing system done
+2024-07-30 15:00:09,842 DEBUG   HandlerThread:146972 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-117-generic-x86_64-with-glibc2.31', 'python': '3.10.14', 'heartbeatAt': '2024-07-30T06:00:09.833746', 'startedAt': '2024-07-30T06:00:03.835346', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/yk-Jeong/iMORS', 'commit': '72ecd154b9abc43a8cef893b27fc7237d222dd2a'}, 'email': 'ykjeong.info@gmail.com', 'root': '/home/ykjeong/new-repo', 'host': 'mdhiai-ai', 'username': 'ykjeong', 'executable': '/home/mdhi/anaconda3/envs/predict/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 3177.585892857143, 'min': 1200.0, 'max': 4642.857142857143}, 'cpu_freq_per_core': [{'current': 1771.435, 'min': 1200.0, 'max': 4800.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4800.0}, {'current': 1200.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3300.0, 'min': 1200.0, 'max': 4600.0}], 'disk': {'/': {'total': 915.3223114013672, 'used': 280.8578910827637}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 93.99881744384766}}
+2024-07-30 15:00:09,842 INFO    HandlerThread:146972 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-30 15:00:09,842 INFO    HandlerThread:146972 [system_monitor.py:probe():227] Publishing system info
+2024-07-30 15:00:09,842 DEBUG   HandlerThread:146972 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-30 15:00:10,724 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/conda-environment.yaml
+2024-07-30 15:00:12,265 DEBUG   HandlerThread:146972 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-30 15:00:12,266 INFO    HandlerThread:146972 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-30 15:00:12,267 DEBUG   SenderThread:146972 [sender.py:send():379] send: files
+2024-07-30 15:00:12,268 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-30 15:00:12,385 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-30 15:00:12,386 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-30 15:00:12,386 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: python_packages
+2024-07-30 15:00:12,387 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: stop_status
+2024-07-30 15:00:12,390 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:12,657 DEBUG   SenderThread:146972 [sender.py:send():379] send: telemetry
+2024-07-30 15:00:12,657 DEBUG   SenderThread:146972 [sender.py:send():379] send: telemetry
+2024-07-30 15:00:12,657 DEBUG   SenderThread:146972 [sender.py:send():379] send: config
+2024-07-30 15:00:12,657 DEBUG   SenderThread:146972 [sender.py:send():379] send: config
+2024-07-30 15:00:12,658 DEBUG   SenderThread:146972 [sender.py:send():379] send: config
+2024-07-30 15:00:12,724 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/conda-environment.yaml
+2024-07-30 15:00:12,724 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/requirements.txt
+2024-07-30 15:00:12,725 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:12,725 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-metadata.json
+2024-07-30 15:00:12,988 INFO    wandb-upload_0:146972 [upload_job.py:push():130] Uploaded file /tmp/tmp5psuarm2wandb/d2t5pa1x-wandb-metadata.json
+2024-07-30 15:00:13,387 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:14,387 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:14,660 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:14,725 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:15,388 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:15,894 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:15,895 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:15,896 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:15,896 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:16,388 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:16,726 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:16,727 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:17,388 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:18,388 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:19,188 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:19,189 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:19,189 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:19,192 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:19,389 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:19,728 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:20,193 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:20,389 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:20,729 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:21,390 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:22,188 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:22,189 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:22,189 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:22,191 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:22,390 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:22,730 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:22,731 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:23,389 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:24,390 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:24,731 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:25,390 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:25,429 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:25,474 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:25,475 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:25,475 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:25,476 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:25,732 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:26,390 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:26,732 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:27,386 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-30 15:00:27,387 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: stop_status
+2024-07-30 15:00:27,430 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:28,390 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:28,806 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:28,807 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:28,808 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:28,810 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:29,391 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:29,734 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:30,391 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:30,734 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:30,811 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:31,391 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:31,937 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:31,938 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:31,939 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:31,941 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:32,391 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:32,736 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:32,736 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:33,391 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:34,392 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:35,174 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:35,176 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:35,176 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:35,177 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:35,392 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:35,737 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:36,178 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:36,392 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:36,737 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:37,392 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:38,392 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:38,454 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:38,455 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:38,455 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:38,456 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:38,739 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:38,739 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:39,392 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:40,393 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:40,740 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:41,290 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:41,300 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:41,393 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:41,570 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:41,570 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:41,571 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:41,741 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/config.yaml
+2024-07-30 15:00:41,741 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:42,386 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-30 15:00:42,387 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: stop_status
+2024-07-30 15:00:42,430 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:42,741 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:43,393 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:44,393 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:44,526 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:44,527 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:44,527 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:44,528 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:44,742 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:44,742 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:45,394 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:46,394 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:46,743 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:47,298 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:47,394 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:47,990 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:47,991 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:47,991 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:47,992 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:48,394 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:48,745 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:48,745 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:49,394 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:50,394 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:50,941 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:50,942 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:50,942 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:50,945 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:51,395 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:51,746 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:52,389 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:52,394 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:52,746 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:53,395 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:54,322 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-30 15:00:54,323 DEBUG   SenderThread:146972 [sender.py:send():379] send: history
+2024-07-30 15:00:54,324 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: summary_record
+2024-07-30 15:00:54,327 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:54,395 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:54,747 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:54,748 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:55,396 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:56,395 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:56,749 INFO    Thread-24 :146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:57,386 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-30 15:00:57,387 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: stop_status
+2024-07-30 15:00:57,430 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:57,628 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:57,738 DEBUG   SenderThread:146972 [sender.py:send():379] send: telemetry
+2024-07-30 15:00:57,739 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: server_info
+2024-07-30 15:00:57,740 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: server_info
+2024-07-30 15:00:57,935 DEBUG   SenderThread:146972 [sender.py:send():379] send: exit
+2024-07-30 15:00:57,935 INFO    SenderThread:146972 [sender.py:send_exit():586] handling exit code: 0
+2024-07-30 15:00:57,935 INFO    SenderThread:146972 [sender.py:send_exit():588] handling runtime: 48
+2024-07-30 15:00:57,936 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:57,936 INFO    SenderThread:146972 [sender.py:send_exit():594] send defer
+2024-07-30 15:00:57,936 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:57,936 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-30 15:00:57,936 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:57,937 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-30 15:00:57,937 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 1
+2024-07-30 15:00:57,937 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:57,937 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-30 15:00:57,937 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:57,937 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-30 15:00:57,937 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 2
+2024-07-30 15:00:57,937 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:57,937 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-30 15:00:57,937 INFO    HandlerThread:146972 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-30 15:00:57,937 DEBUG   SystemMonitor:146972 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-30 15:00:57,938 INFO    HandlerThread:146972 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-30 15:00:57,938 DEBUG   SystemMonitor:146972 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-30 15:00:57,938 INFO    HandlerThread:146972 [interfaces.py:finish():200] Joined disk monitor
+2024-07-30 15:00:57,938 DEBUG   SystemMonitor:146972 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-30 15:00:58,023 INFO    HandlerThread:146972 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-30 15:00:58,023 INFO    HandlerThread:146972 [interfaces.py:finish():200] Joined memory monitor
+2024-07-30 15:00:58,024 INFO    HandlerThread:146972 [interfaces.py:finish():200] Joined network monitor
+2024-07-30 15:00:58,024 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,024 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-30 15:00:58,024 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 3
+2024-07-30 15:00:58,024 DEBUG   SenderThread:146972 [sender.py:send():379] send: stats
+2024-07-30 15:00:58,024 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,025 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-30 15:00:58,025 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,025 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-30 15:00:58,026 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 4
+2024-07-30 15:00:58,026 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,026 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-30 15:00:58,026 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,026 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-30 15:00:58,026 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 5
+2024-07-30 15:00:58,026 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,026 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-30 15:00:58,027 DEBUG   SenderThread:146972 [sender.py:send():379] send: summary
+2024-07-30 15:00:58,027 INFO    SenderThread:146972 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-30 15:00:58,028 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,028 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-30 15:00:58,028 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 6
+2024-07-30 15:00:58,028 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,028 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-30 15:00:58,028 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,028 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-30 15:00:58,033 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: status_report
+2024-07-30 15:00:58,425 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 7
+2024-07-30 15:00:58,426 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,426 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-30 15:00:58,427 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,427 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-30 15:00:58,743 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 8
+2024-07-30 15:00:58,744 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,745 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-30 15:00:58,745 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,745 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-30 15:00:58,745 INFO    SenderThread:146972 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-30 15:00:58,746 INFO    SenderThread:146972 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-30 15:00:58,746 INFO    SenderThread:146972 [job_builder.py:_get_program_relpath():587] run is notebook based run
+2024-07-30 15:00:58,746 WARNING SenderThread:146972 [job_builder.py:_log_if_verbose():274] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-07-30 15:00:58,746 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 9
+2024-07-30 15:00:58,746 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,747 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-30 15:00:58,747 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,747 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-30 15:00:58,747 INFO    SenderThread:146972 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-30 15:00:58,751 INFO    SenderThread:146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:58,752 INFO    SenderThread:146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/config.yaml
+2024-07-30 15:00:58,752 INFO    SenderThread:146972 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:58,753 INFO    SenderThread:146972 [dir_watcher.py:finish():388] scan: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files
+2024-07-30 15:00:58,753 INFO    SenderThread:146972 [dir_watcher.py:finish():402] scan save: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/requirements.txt requirements.txt
+2024-07-30 15:00:58,753 INFO    SenderThread:146972 [dir_watcher.py:finish():402] scan save: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-metadata.json wandb-metadata.json
+2024-07-30 15:00:58,754 INFO    SenderThread:146972 [dir_watcher.py:finish():402] scan save: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log output.log
+2024-07-30 15:00:58,757 INFO    SenderThread:146972 [dir_watcher.py:finish():402] scan save: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json wandb-summary.json
+2024-07-30 15:00:58,758 INFO    SenderThread:146972 [dir_watcher.py:finish():402] scan save: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/conda-environment.yaml conda-environment.yaml
+2024-07-30 15:00:58,769 INFO    SenderThread:146972 [dir_watcher.py:finish():402] scan save: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/config.yaml config.yaml
+2024-07-30 15:00:58,774 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 10
+2024-07-30 15:00:58,774 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:58,774 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-30 15:00:58,777 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:58,777 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-30 15:00:58,777 INFO    SenderThread:146972 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-30 15:00:58,936 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-30 15:00:58,938 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: poll_exit
+2024-07-30 15:00:59,221 INFO    wandb-upload_0:146972 [upload_job.py:push():130] Uploaded file /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/requirements.txt
+2024-07-30 15:00:59,289 INFO    wandb-upload_1:146972 [upload_job.py:push():130] Uploaded file /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/output.log
+2024-07-30 15:00:59,308 INFO    wandb-upload_4:146972 [upload_job.py:push():130] Uploaded file /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/config.yaml
+2024-07-30 15:00:59,318 INFO    wandb-upload_2:146972 [upload_job.py:push():130] Uploaded file /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/wandb-summary.json
+2024-07-30 15:00:59,333 INFO    wandb-upload_3:146972 [upload_job.py:push():130] Uploaded file /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/files/conda-environment.yaml
+2024-07-30 15:00:59,534 INFO    Thread-23 (_thread_body):146972 [sender.py:transition_state():614] send defer: 11
+2024-07-30 15:00:59,535 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:59,535 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-30 15:00:59,535 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:59,536 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-30 15:00:59,536 INFO    SenderThread:146972 [file_pusher.py:join():175] waiting for file pusher
+2024-07-30 15:00:59,536 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 12
+2024-07-30 15:00:59,536 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:59,536 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-30 15:00:59,537 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:59,537 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-30 15:00:59,537 INFO    SenderThread:146972 [file_stream.py:finish():601] file stream finish called
+2024-07-30 15:00:59,735 INFO    SenderThread:146972 [file_stream.py:finish():605] file stream finish is done
+2024-07-30 15:00:59,735 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 13
+2024-07-30 15:00:59,736 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:59,736 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-30 15:00:59,737 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:59,737 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-30 15:00:59,737 INFO    SenderThread:146972 [sender.py:transition_state():614] send defer: 14
+2024-07-30 15:00:59,738 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: defer
+2024-07-30 15:00:59,738 INFO    HandlerThread:146972 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-30 15:00:59,738 DEBUG   SenderThread:146972 [sender.py:send():379] send: final
+2024-07-30 15:00:59,739 DEBUG   SenderThread:146972 [sender.py:send():379] send: footer
+2024-07-30 15:00:59,739 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: defer
+2024-07-30 15:00:59,739 INFO    SenderThread:146972 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-30 15:00:59,741 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-30 15:00:59,742 DEBUG   SenderThread:146972 [sender.py:send_request():406] send_request: poll_exit
+2024-07-30 15:00:59,743 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-30 15:00:59,745 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-30 15:00:59,746 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-30 15:00:59,747 DEBUG   HandlerThread:146972 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-30 15:00:59,747 INFO    HandlerThread:146972 [handler.py:finish():882] shutting down handler
+2024-07-30 15:01:00,742 INFO    WriterThread:146972 [datastore.py:close():296] close: /home/ykjeong/new-repo/wandb/run-20240730_150003-vymovagl/run-vymovagl.wandb
+2024-07-30 15:01:00,742 INFO    SenderThread:146972 [sender.py:finish():1615] shutting down sender
+2024-07-30 15:01:00,743 INFO    SenderThread:146972 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-30 15:01:00,743 INFO    SenderThread:146972 [file_pusher.py:join():175] waiting for file pusher

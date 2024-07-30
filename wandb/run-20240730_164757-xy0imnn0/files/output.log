@@ -1,0 +1,20 @@
+Data shape: torch.Size([12395, 24, 37])
+Labels shape: torch.Size([12395, 1])
+Data shape: torch.Size([3542, 24, 37])
+Labels shape: torch.Size([3542, 1])
+Data shape: torch.Size([1771, 24, 37])
+Labels shape: torch.Size([1771, 1])
+Epoch [1/70], Train Loss: 0.6522
+Validation Loss: 0.5895, Validation Accuracy: 72.50%
+Epoch [2/70], Train Loss: 0.5760
+Validation Loss: 0.5935, Validation Accuracy: 72.50%
+Epoch [3/70], Train Loss: 0.5698
+Validation Loss: 0.5912, Validation Accuracy: 72.50%
+Epoch [4/70], Train Loss: 0.5690
+Validation Loss: 0.5926, Validation Accuracy: 72.50%
+Epoch [5/70], Train Loss: 0.5595
+Validation Loss: 0.5896, Validation Accuracy: 72.50%
+Epoch [6/70], Train Loss: 0.5599
+Validation Loss: 0.5899, Validation Accuracy: 72.50%
+Early stopping
+Finished Training

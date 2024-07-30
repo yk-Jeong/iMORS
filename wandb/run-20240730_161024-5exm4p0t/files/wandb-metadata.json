@@ -1,0 +1,191 @@
+{
+    "os": "Linux-5.15.0-117-generic-x86_64-with-glibc2.31",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-07-30T07:10:25.478311",
+    "startedAt": "2024-07-30T07:10:24.763128",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/yk-Jeong/iMORS",
+        "commit": "72ecd154b9abc43a8cef893b27fc7237d222dd2a"
+    },
+    "email": "ykjeong.info@gmail.com",
+    "root": "/home/ykjeong/new-repo",
+    "host": "mdhiai-ai",
+    "username": "ykjeong",
+    "executable": "/home/mdhi/anaconda3/envs/predict/bin/python",
+    "cpu_count": 14,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 3395.7129285714286,
+        "min": 1200.0,
+        "max": 4642.857142857143
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4291.675,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3307.888,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3849.845,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3383.889,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3662.095,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3704.529,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3564.374,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3332.101,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3590.334,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3570.541,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3562.644,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3549.492,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3217.246,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3689.056,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 915.3223114013672,
+            "used": 280.8666648864746
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 93.99881744384766
+    }
+}

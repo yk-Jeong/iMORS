@@ -1,0 +1,72 @@
+Data shape: torch.Size([12395, 24, 37])
+Labels shape: torch.Size([12395, 1])
+Data shape: torch.Size([3542, 24, 37])
+Labels shape: torch.Size([3542, 1])
+Data shape: torch.Size([1771, 24, 37])
+Labels shape: torch.Size([1771, 1])
+Epoch [1/70], Train Loss: 0.6654
+Validation Loss: 0.6678, Validation Accuracy: 72.50%
+Epoch [2/70], Train Loss: 0.6548
+Validation Loss: 0.6574, Validation Accuracy: 72.50%
+Epoch [3/70], Train Loss: 0.6354
+Validation Loss: 0.6361, Validation Accuracy: 72.50%
+Epoch [4/70], Train Loss: 0.5981
+Validation Loss: 0.6042, Validation Accuracy: 72.50%
+Epoch [5/70], Train Loss: 0.5726
+Validation Loss: 0.5928, Validation Accuracy: 72.50%
+Epoch [6/70], Train Loss: 0.5676
+Validation Loss: 0.5914, Validation Accuracy: 72.50%
+Epoch [7/70], Train Loss: 0.5631
+Validation Loss: 0.5907, Validation Accuracy: 72.50%
+Epoch [8/70], Train Loss: 0.5673
+Validation Loss: 0.5908, Validation Accuracy: 72.50%
+Epoch [9/70], Train Loss: 0.5647
+Validation Loss: 0.5908, Validation Accuracy: 72.50%
+Epoch [10/70], Train Loss: 0.5609
+Validation Loss: 0.5908, Validation Accuracy: 72.50%
+Epoch [11/70], Train Loss: 0.5636
+Validation Loss: 0.5906, Validation Accuracy: 72.50%
+Epoch [12/70], Train Loss: 0.5639
+Validation Loss: 0.5905, Validation Accuracy: 72.50%
+Epoch [13/70], Train Loss: 0.5625
+Validation Loss: 0.5905, Validation Accuracy: 72.50%
+Epoch [14/70], Train Loss: 0.5606
+Validation Loss: 0.5905, Validation Accuracy: 72.50%
+Epoch [15/70], Train Loss: 0.5595
+Validation Loss: 0.5902, Validation Accuracy: 72.50%
+Epoch [16/70], Train Loss: 0.5591
+Validation Loss: 0.5902, Validation Accuracy: 72.50%
+Epoch [17/70], Train Loss: 0.5620
+Validation Loss: 0.5903, Validation Accuracy: 72.50%
+Epoch [18/70], Train Loss: 0.5558
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [19/70], Train Loss: 0.5597
+Validation Loss: 0.5902, Validation Accuracy: 72.50%
+Epoch [20/70], Train Loss: 0.5609
+Validation Loss: 0.5902, Validation Accuracy: 72.50%
+Epoch [21/70], Train Loss: 0.5576
+Validation Loss: 0.5902, Validation Accuracy: 72.50%
+Epoch [22/70], Train Loss: 0.5584
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [23/70], Train Loss: 0.5599
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [24/70], Train Loss: 0.5586
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [25/70], Train Loss: 0.5606
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [26/70], Train Loss: 0.5582
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [27/70], Train Loss: 0.5576
+Validation Loss: 0.5900, Validation Accuracy: 72.50%
+Epoch [28/70], Train Loss: 0.5598
+Validation Loss: 0.5900, Validation Accuracy: 72.50%
+Epoch [29/70], Train Loss: 0.5613
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [30/70], Train Loss: 0.5588
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [31/70], Train Loss: 0.5625
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Epoch [32/70], Train Loss: 0.5587
+Validation Loss: 0.5901, Validation Accuracy: 72.50%
+Early stopping
+Finished Training
