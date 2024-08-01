@@ -1,0 +1,23 @@
+2024-07-31 15:06:38,440 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Configure stats pid to 894273
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Loading settings from /home/ykjeong/.config/wandb/settings
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Loading settings from /home/ykjeong/new-repo/wandb/settings
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_init.py:_log_setup():529] Logging user logs to /home/ykjeong/new-repo/wandb/run-20240731_150638-szfj23v2/logs/debug.log
+2024-07-31 15:06:38,441 INFO    MainThread:894273 [wandb_init.py:_log_setup():530] Logging internal logs to /home/ykjeong/new-repo/wandb/run-20240731_150638-szfj23v2/logs/debug-internal.log
+2024-07-31 15:06:38,442 INFO    MainThread:894273 [wandb_init.py:init():569] calling init triggers
+2024-07-31 15:06:38,442 INFO    MainThread:894273 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {}
+2024-07-31 15:06:38,442 INFO    MainThread:894273 [wandb_init.py:init():619] starting backend
+2024-07-31 15:06:38,442 INFO    MainThread:894273 [wandb_init.py:init():623] setting up manager
+2024-07-31 15:06:38,446 INFO    MainThread:894273 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-31 15:06:38,446 INFO    MainThread:894273 [wandb_init.py:init():631] backend started and connected
+2024-07-31 15:06:38,451 INFO    MainThread:894273 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-31 15:06:38,451 INFO    MainThread:894273 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-31 15:06:38,451 INFO    MainThread:894273 [wandb_init.py:init():720] updated telemetry
+2024-07-31 15:06:38,456 INFO    MainThread:894273 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-31 15:06:38,972 WARNING MsgRouterThr:894273 [router.py:message_loop():77] message_loop has been closed
+2024-07-31 15:06:38,994 INFO    MainThread:894273 [wandb_run.py:_on_init():2435] communicating current version

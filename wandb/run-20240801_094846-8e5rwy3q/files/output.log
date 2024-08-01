@@ -1,0 +1,50 @@
+Epoch [1/30], Train Loss: 0.6866
+Validation Loss: 0.6788, Validation Accuracy: 62.45%
+Epoch [2/30], Train Loss: 0.6891
+Validation Loss: 0.6785, Validation Accuracy: 62.45%
+Epoch [3/30], Train Loss: 0.6880
+Validation Loss: 0.6782, Validation Accuracy: 62.45%
+Epoch [4/30], Train Loss: 0.6872
+Validation Loss: 0.6779, Validation Accuracy: 62.45%
+Epoch [5/30], Train Loss: 0.6871
+Validation Loss: 0.6777, Validation Accuracy: 62.45%
+Epoch [6/30], Train Loss: 0.6870
+Validation Loss: 0.6774, Validation Accuracy: 62.45%
+Epoch [7/30], Train Loss: 0.6854
+Validation Loss: 0.6772, Validation Accuracy: 62.45%
+Epoch [8/30], Train Loss: 0.6864
+Validation Loss: 0.6769, Validation Accuracy: 62.45%
+Epoch [9/30], Train Loss: 0.6856
+Validation Loss: 0.6766, Validation Accuracy: 62.45%
+Epoch [10/30], Train Loss: 0.6865
+Validation Loss: 0.6765, Validation Accuracy: 62.45%
+Epoch [11/30], Train Loss: 0.6855
+Validation Loss: 0.6762, Validation Accuracy: 62.45%
+Epoch [12/30], Train Loss: 0.6865
+Validation Loss: 0.6759, Validation Accuracy: 62.45%
+Epoch [13/30], Train Loss: 0.6863
+Validation Loss: 0.6758, Validation Accuracy: 62.45%
+Epoch [14/30], Train Loss: 0.6855
+Validation Loss: 0.6755, Validation Accuracy: 62.45%
+Epoch [15/30], Train Loss: 0.6873
+Validation Loss: 0.6754, Validation Accuracy: 62.45%
+Epoch [16/30], Train Loss: 0.6862
+Validation Loss: 0.6752, Validation Accuracy: 62.45%
+Epoch [17/30], Train Loss: 0.6872
+Validation Loss: 0.6750, Validation Accuracy: 62.45%
+Epoch [18/30], Train Loss: 0.6863
+Validation Loss: 0.6749, Validation Accuracy: 62.45%
+Epoch [19/30], Train Loss: 0.6851
+Validation Loss: 0.6747, Validation Accuracy: 62.45%
+Epoch [20/30], Train Loss: 0.6862
+Validation Loss: 0.6744, Validation Accuracy: 62.45%
+Epoch [21/30], Train Loss: 0.6860
+클래스 0의 비율: 0.7957416462917686
+클래스 1의 비율: 0.20425835370823145
+클래스 0의 비율: 0.7997148966500356
+클래스 1의 비율: 0.20028510334996436
+클래스 0의 비율: 0.7817403708987162
+클래스 1의 비율: 0.21825962910128388
+(235584, 37) (235584,)
+(33672, 37) (33672,)
+(67296, 37) (67296,)

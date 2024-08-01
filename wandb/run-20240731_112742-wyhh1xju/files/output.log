@@ -1,0 +1,30 @@
+Data shape: torch.Size([9652, 24, 45])
+Labels shape: torch.Size([9652, 1])
+Data shape: torch.Size([2758, 24, 45])
+Labels shape: torch.Size([2758, 1])
+Data shape: torch.Size([1379, 24, 45])
+Labels shape: torch.Size([1379, 1])
+Epoch [1/25], Train Loss: 0.6724
+Validation Loss: 0.6646, Validation Accuracy: 79.19%
+Epoch [2/25], Train Loss: 0.6557
+Validation Loss: 0.6461, Validation Accuracy: 79.19%
+Epoch [3/25], Train Loss: 0.6228
+Validation Loss: 0.5942, Validation Accuracy: 79.19%
+Epoch [4/25], Train Loss: 0.5617
+Validation Loss: 0.5307, Validation Accuracy: 79.19%
+Epoch [5/25], Train Loss: 0.5409
+Validation Loss: 0.5204, Validation Accuracy: 79.19%
+Epoch [6/25], Train Loss: 0.5393
+Validation Loss: 0.5201, Validation Accuracy: 79.19%
+Epoch [7/25], Train Loss: 0.5395
+Validation Loss: 0.5208, Validation Accuracy: 79.19%
+Epoch [8/25], Train Loss: 0.5395
+Validation Loss: 0.5212, Validation Accuracy: 79.19%
+Epoch [9/25], Train Loss: 0.5397
+Validation Loss: 0.5221, Validation Accuracy: 79.19%
+Epoch [10/25], Train Loss: 0.5311
+Validation Loss: 0.5214, Validation Accuracy: 79.19%
+Epoch [11/25], Train Loss: 0.5334
+Validation Loss: 0.5212, Validation Accuracy: 79.19%
+Early stopping
+Finished Training

@@ -1,0 +1,30 @@
+/home/mdhi/anaconda3/envs/predict/lib/python3.10/site-packages/torch/cuda/__init__.py:118: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 2: out of memory (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+Data shape: torch.Size([18181, 24, 45])
+Labels shape: torch.Size([18181, 1])
+Data shape: torch.Size([5194, 24, 45])
+Labels shape: torch.Size([5194, 1])
+Data shape: torch.Size([2598, 24, 45])
+Labels shape: torch.Size([2598, 1])
+Epoch [1/25], Train Loss: 0.6682
+Validation Loss: 0.6498, Validation Accuracy: 82.44%
+Epoch [2/25], Train Loss: 0.5798
+Validation Loss: 0.4846, Validation Accuracy: 82.44%
+Epoch [3/25], Train Loss: 0.4836
+Validation Loss: 0.4662, Validation Accuracy: 82.44%
+Epoch [4/25], Train Loss: 0.4777
+Validation Loss: 0.4661, Validation Accuracy: 82.44%
+Epoch [5/25], Train Loss: 0.4680
+Validation Loss: 0.4657, Validation Accuracy: 82.44%
+Epoch [6/25], Train Loss: 0.4746
+Validation Loss: 0.4668, Validation Accuracy: 82.44%
+Epoch [7/25], Train Loss: 0.4684
+Validation Loss: 0.4668, Validation Accuracy: 82.44%
+Epoch [8/25], Train Loss: 0.4694
+Validation Loss: 0.4675, Validation Accuracy: 82.44%
+Epoch [9/25], Train Loss: 0.4657
+Validation Loss: 0.4681, Validation Accuracy: 82.44%
+Epoch [10/25], Train Loss: 0.4620
+Validation Loss: 0.4683, Validation Accuracy: 82.44%
+Early stopping
+Finished Training

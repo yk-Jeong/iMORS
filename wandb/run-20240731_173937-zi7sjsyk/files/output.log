@@ -1,0 +1,11 @@
+/tmp/ipykernel_1272851/762980745.py:25: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  df_kept = df.groupby('stay_id').apply(select_random_window).reset_index(drop=True)
+클래스 0의 비율: 0.5993570423950171
+클래스 1의 비율: 0.4006429576049829
+클래스 0의 비율: 0.5997191011235955
+클래스 1의 비율: 0.4002808988764045
+클래스 0의 비율: 0.6054852320675106
+클래스 1의 비율: 0.39451476793248946
+(119448, 37) (119448,)
+(17088, 37) (17088,)
+(34128, 37) (34128,)

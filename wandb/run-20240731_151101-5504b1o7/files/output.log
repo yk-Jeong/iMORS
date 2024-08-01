@@ -1,0 +1,47 @@
+Epoch [1/25], Train Loss: 0.6926
+Validation Loss: 0.6906, Validation Accuracy: 64.56%
+Epoch [2/25], Train Loss: 0.6924
+Validation Loss: 0.6903, Validation Accuracy: 64.56%
+Epoch [3/25], Train Loss: 0.6920
+Validation Loss: 0.6899, Validation Accuracy: 64.56%
+Epoch [4/25], Train Loss: 0.6916
+Validation Loss: 0.6895, Validation Accuracy: 64.56%
+Epoch [5/25], Train Loss: 0.6910
+Validation Loss: 0.6891, Validation Accuracy: 64.56%
+Epoch [6/25], Train Loss: 0.6908
+Validation Loss: 0.6888, Validation Accuracy: 64.56%
+Epoch [7/25], Train Loss: 0.6914
+Validation Loss: 0.6884, Validation Accuracy: 64.56%
+Epoch [8/25], Train Loss: 0.6914
+Validation Loss: 0.6881, Validation Accuracy: 64.56%
+Epoch [9/25], Train Loss: 0.6898
+Validation Loss: 0.6877, Validation Accuracy: 64.56%
+Epoch [10/25], Train Loss: 0.6901
+Validation Loss: 0.6873, Validation Accuracy: 64.56%
+Epoch [11/25], Train Loss: 0.6895
+Validation Loss: 0.6870, Validation Accuracy: 64.56%
+Epoch [12/25], Train Loss: 0.6894
+Validation Loss: 0.6866, Validation Accuracy: 64.56%
+Epoch [13/25], Train Loss: 0.6903
+Validation Loss: 0.6862, Validation Accuracy: 64.56%
+Epoch [14/25], Train Loss: 0.6895
+Validation Loss: 0.6859, Validation Accuracy: 64.56%
+Epoch [15/25], Train Loss: 0.6905
+Validation Loss: 0.6855, Validation Accuracy: 64.56%
+Epoch [16/25], Train Loss: 0.6890
+Validation Loss: 0.6852, Validation Accuracy: 64.56%
+Epoch [17/25], Train Loss: 0.6887
+Validation Loss: 0.6848, Validation Accuracy: 64.56%
+Epoch [18/25], Train Loss: 0.6886
+Validation Loss: 0.6845, Validation Accuracy: 64.56%
+Epoch [19/25], Train Loss: 0.6881
+Validation Loss: 0.6842, Validation Accuracy: 64.56%
+클래스 0의 비율: 0.6011653606590316
+클래스 1의 비율: 0.39883463934096847
+클래스 0의 비율: 0.574438202247191
+클래스 1의 비율: 0.425561797752809
+클래스 0의 비율: 0.6118143459915611
+클래스 1의 비율: 0.3881856540084388
+(119448, 45) (119448,)
+(17088, 45) (17088,)
+(34128, 45) (34128,)

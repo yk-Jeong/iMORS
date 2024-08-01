@@ -1,0 +1,18 @@
+Epoch [1/25], Train Loss: 0.6873
+Validation Loss: 0.6824, Validation Accuracy: 64.56%
+Epoch [2/25], Train Loss: 0.6874
+Validation Loss: 0.6815, Validation Accuracy: 64.56%
+Epoch [3/25], Train Loss: 0.6869
+Validation Loss: 0.6807, Validation Accuracy: 64.56%
+Epoch [4/25], Train Loss: 0.6871
+Validation Loss: 0.6798, Validation Accuracy: 64.56%
+Epoch [5/25], Train Loss: 0.6857
+Validation Loss: 0.6790, Validation Accuracy: 64.56%
+Epoch [6/25], Train Loss: 0.6855
+Validation Loss: 0.6782, Validation Accuracy: 64.56%
+Epoch [7/25], Train Loss: 0.6848
+Validation Loss: 0.6775, Validation Accuracy: 64.56%
+Epoch [8/25], Train Loss: 0.6851
+Validation Loss: 0.6768, Validation Accuracy: 64.56%
+Epoch [9/25], Train Loss: 0.6849
+Validation Loss: 0.6761, Validation Accuracy: 64.56%

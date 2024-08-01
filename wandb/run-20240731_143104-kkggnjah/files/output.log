@@ -1,0 +1,59 @@
+/home/mdhi/anaconda3/envs/predict/lib/python3.10/site-packages/torch/cuda/__init__.py:118: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 2: out of memory (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+Data shape: torch.Size([9462, 24, 45])
+Labels shape: torch.Size([9462, 1])
+Data shape: torch.Size([2704, 24, 45])
+Labels shape: torch.Size([2704, 1])
+Data shape: torch.Size([1352, 24, 45])
+Labels shape: torch.Size([1352, 1])
+Epoch [1/25], Train Loss: 0.7546
+Validation Loss: 0.7515, Validation Accuracy: 19.53%
+Epoch [2/25], Train Loss: 0.7483
+Validation Loss: 0.7455, Validation Accuracy: 19.53%
+Epoch [3/25], Train Loss: 0.7422
+Validation Loss: 0.7394, Validation Accuracy: 19.53%
+Epoch [4/25], Train Loss: 0.7367
+Validation Loss: 0.7329, Validation Accuracy: 19.53%
+Epoch [5/25], Train Loss: 0.7303
+Validation Loss: 0.7249, Validation Accuracy: 19.53%
+Epoch [6/25], Train Loss: 0.7229
+Validation Loss: 0.7141, Validation Accuracy: 19.53%
+Epoch [7/25], Train Loss: 0.7131
+Validation Loss: 0.6992, Validation Accuracy: 19.53%
+Epoch [8/25], Train Loss: 0.7006
+Validation Loss: 0.6820, Validation Accuracy: 80.36%
+Epoch [9/25], Train Loss: 0.6860
+Validation Loss: 0.6640, Validation Accuracy: 80.51%
+Epoch [10/25], Train Loss: 0.6673
+Validation Loss: 0.6432, Validation Accuracy: 80.47%
+Epoch [11/25], Train Loss: 0.6422
+Validation Loss: 0.6190, Validation Accuracy: 80.47%
+Epoch [12/25], Train Loss: 0.6209
+Validation Loss: 0.5916, Validation Accuracy: 80.47%
+Epoch [13/25], Train Loss: 0.6013
+Validation Loss: 0.5671, Validation Accuracy: 80.47%
+Epoch [14/25], Train Loss: 0.5922
+Validation Loss: 0.5485, Validation Accuracy: 80.47%
+Epoch [15/25], Train Loss: 0.5751
+Validation Loss: 0.5349, Validation Accuracy: 80.47%
+Epoch [16/25], Train Loss: 0.5770
+Validation Loss: 0.5262, Validation Accuracy: 80.47%
+Epoch [17/25], Train Loss: 0.5746
+Validation Loss: 0.5209, Validation Accuracy: 80.47%
+Epoch [18/25], Train Loss: 0.5663
+Validation Loss: 0.5169, Validation Accuracy: 80.47%
+Epoch [19/25], Train Loss: 0.5689
+Validation Loss: 0.5146, Validation Accuracy: 80.47%
+Epoch [20/25], Train Loss: 0.5677
+Validation Loss: 0.5133, Validation Accuracy: 80.47%
+Epoch [21/25], Train Loss: 0.5654
+Validation Loss: 0.5121, Validation Accuracy: 80.47%
+Epoch [22/25], Train Loss: 0.5693
+Validation Loss: 0.5117, Validation Accuracy: 80.47%
+Epoch [23/25], Train Loss: 0.5653
+Validation Loss: 0.5110, Validation Accuracy: 80.47%
+Epoch [24/25], Train Loss: 0.5667
+Validation Loss: 0.5107, Validation Accuracy: 80.47%
+Epoch [25/25], Train Loss: 0.5607
+Validation Loss: 0.5104, Validation Accuracy: 80.47%
+Finished Training

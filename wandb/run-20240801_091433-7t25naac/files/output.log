@@ -1,0 +1,59 @@
+Epoch [1/30], Train Loss: 0.6840
+Validation Loss: 0.6745, Validation Accuracy: 62.45%
+Epoch [2/30], Train Loss: 0.6836
+Validation Loss: 0.6742, Validation Accuracy: 62.45%
+Epoch [3/30], Train Loss: 0.6839
+Validation Loss: 0.6738, Validation Accuracy: 62.45%
+Epoch [4/30], Train Loss: 0.6838
+Validation Loss: 0.6734, Validation Accuracy: 62.45%
+Epoch [5/30], Train Loss: 0.6831
+Validation Loss: 0.6731, Validation Accuracy: 62.45%
+Epoch [6/30], Train Loss: 0.6822
+Validation Loss: 0.6728, Validation Accuracy: 62.45%
+Epoch [7/30], Train Loss: 0.6834
+Validation Loss: 0.6725, Validation Accuracy: 62.45%
+Epoch [8/30], Train Loss: 0.6833
+Validation Loss: 0.6722, Validation Accuracy: 62.45%
+Epoch [9/30], Train Loss: 0.6828
+Validation Loss: 0.6719, Validation Accuracy: 62.45%
+Epoch [10/30], Train Loss: 0.6833
+Validation Loss: 0.6716, Validation Accuracy: 62.45%
+Epoch [11/30], Train Loss: 0.6833
+Validation Loss: 0.6714, Validation Accuracy: 62.45%
+Epoch [12/30], Train Loss: 0.6825
+Validation Loss: 0.6712, Validation Accuracy: 62.45%
+Epoch [13/30], Train Loss: 0.6823
+Validation Loss: 0.6711, Validation Accuracy: 62.45%
+Epoch [14/30], Train Loss: 0.6828
+Validation Loss: 0.6709, Validation Accuracy: 62.45%
+Epoch [15/30], Train Loss: 0.6824
+Validation Loss: 0.6706, Validation Accuracy: 62.45%
+Epoch [16/30], Train Loss: 0.6826
+Validation Loss: 0.6704, Validation Accuracy: 62.45%
+Epoch [17/30], Train Loss: 0.6827
+Validation Loss: 0.6702, Validation Accuracy: 62.45%
+Epoch [18/30], Train Loss: 0.6826
+Validation Loss: 0.6701, Validation Accuracy: 62.45%
+Epoch [19/30], Train Loss: 0.6824
+Validation Loss: 0.6699, Validation Accuracy: 62.45%
+Epoch [20/30], Train Loss: 0.6824
+Validation Loss: 0.6698, Validation Accuracy: 62.45%
+Epoch [21/30], Train Loss: 0.6820
+Validation Loss: 0.6698, Validation Accuracy: 62.45%
+Epoch [22/30], Train Loss: 0.6824
+Validation Loss: 0.6697, Validation Accuracy: 62.45%
+Epoch [23/30], Train Loss: 0.6826
+Validation Loss: 0.6696, Validation Accuracy: 62.45%
+/tmp/ipykernel_1598849/940888685.py:12: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  resampled = df.groupby('stay_id').apply(resample_group).reset_index(drop=True)
+/tmp/ipykernel_1598849/3834355746.py:24: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  df_kept = df.groupby('stay_id').apply(select_random_window).reset_index(drop=True)
+클래스 0의 비율: 0.6012055220688314
+클래스 1의 비율: 0.39879447793116857
+클래스 0의 비율: 0.6068027210884354
+클래스 1의 비율: 0.39319727891156464
+클래스 0의 비율: 0.6204081632653061
+클래스 1의 비율: 0.3795918367346939
+(123432, 45) (123432,)
+(17640, 45) (17640,)
+(35280, 45) (35280,)
