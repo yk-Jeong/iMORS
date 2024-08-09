@@ -1,8 +1,0 @@
-Data shape: torch.Size([19599, 24, 45])
-Labels shape: torch.Size([19599, 1])
-Data shape: torch.Size([5600, 24, 45])
-Labels shape: torch.Size([5600, 1])
-Data shape: torch.Size([2800, 24, 45])
-Labels shape: torch.Size([2800, 1])
-Epoch [1/25], Train Loss: 0.7208
-Validation Loss: 0.5513, Validation Accuracy: 100.00%

@@ -1,6 +1,0 @@
-Data shape: torch.Size([9462, 24, 45])
-Labels shape: torch.Size([9462, 1])
-Data shape: torch.Size([2704, 24, 45])
-Labels shape: torch.Size([2704, 1])
-Data shape: torch.Size([1352, 24, 45])
-Labels shape: torch.Size([1352, 1])
